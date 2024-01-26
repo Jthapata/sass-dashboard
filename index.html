@@ -9,9 +9,11 @@
 <body>
     <header>
         <img src="images/mtech.png" alt="Logo" class="logo">
-        <i class="fa-solid fa-bell"></i>
-        <i class="fa-solid fa-user"></i>
-        <p>Jesse Z</p>
+        <div>
+            <i class="fa-solid fa-bell fa-xl"></i>
+            <i class="fa-solid fa-user fa-xl"></i>
+            <p>Student Name</p>
+        </div>
     </header>
     <div class="sidebar">
         <div class="sidebar-item">
@@ -35,12 +37,16 @@
             <h3>User</h3>
         </div>
     </div>
-    <h1>Welcome Back, Student</h1>
-    <p class="student-id">Student ID: UT0298475</p>
-    <button class="upload-document">Upload Document</button>
     <div id="dashboard">
+        <div class="top">
+            <div>
+                <h1>Welcome Back, Student</h1>
+                <p class="student-id">Student ID: UT0298475</p>
+            </div>
+            <button class="upload-document">Upload Document</button>
+        </div>
         <div class="row">
-            <div class="column">
+            <div class="column left">
                 <div class="row">
                     <div class="card">
                         <p>Total Points</p>
@@ -57,7 +63,7 @@
                 </div>
                 <div class="card">
                     <h5>Course Progress</h5>
-                    <!-- some progress bar -->
+                    <progress value="20" max="100"></progress>
                     <h6>Web Development and Programming</h6>
                 </div>
                 <div class="card">
@@ -65,7 +71,7 @@
                     <p>no discussions at this time</p>
                 </div>
             </div>
-            <div class="column">
+            <div class="column right">
                 <div class="card">
                     <h5>Tasks</h5>
                     <p>Sass Dashboard</p>
