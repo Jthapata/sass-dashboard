@@ -44,6 +44,7 @@ header div {
   flex-direction: row;
   align-items: center;
   color: #2d2d2d;
+  padding-right: 1rem;
 }
 header div i {
   margin: 0.75rem;
@@ -115,24 +116,27 @@ header div p {
 button {
   margin: 1rem;
   padding: 1rem;
+  font-weight: bolder;
   background-color: #d496a6;
   border: 1px solid #77001e;
   border-radius: 10px;
 }
 
+.card {
+  border: 2px solid #77001e;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 1rem;
+}
+
 .left {
   flex-grow: 2;
+  align-items: stretch;
 }
 
 .right {
   flex-grow: 1;
-}
-
-.card {
-  border: 1px solid #77001e;
-  border-radius: 10px;
-  padding: 2rem;
-  margin: 1rem;
+  align-items: stretch;
 }
 
 progress {
