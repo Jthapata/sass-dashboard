@@ -44,14 +44,13 @@ header {
         }
     }
 }
-.logo {
-    width: 80px;
-    height: 80px;
+.fa-school {
     background-color: base.$off-white;
     margin: 1rem 5rem;
 }
 .maincontent {
     @include row(stretch);
+    height: 100%;
 }
 .sidebar {
     @include column(flex-start);
@@ -68,6 +67,7 @@ header {
     width: 100%;
     padding: 1rem;
     margin: .1rem 0;
+    cursor: pointer;
     i {
         color: base.$charcoal;
     }
@@ -103,6 +103,10 @@ button {
     background-color: base.$light-red;
     border: 1px solid base.$red;
     border-radius: 10px;
+    cursor: pointer;
+}
+.cards {
+    @include row(stretch);
 }
 .card {
     border: 2px solid base.$red;
@@ -122,9 +126,6 @@ button {
 .right {
     flex-grow: 1;
     align-items: stretch;
-    .card {
-        height: 100%;
-    }
     .top-card {
         flex-grow: 2;
     }

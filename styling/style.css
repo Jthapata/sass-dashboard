@@ -53,9 +53,7 @@ header div p {
   margin: 0.75rem;
 }
 
-.logo {
-  width: 80px;
-  height: 80px;
+.fa-school {
   background-color: #f6f6f6;
   margin: 1rem 5rem;
 }
@@ -64,6 +62,7 @@ header div p {
   display: flex;
   flex-direction: row;
   align-items: stretch;
+  height: 100%;
 }
 
 .sidebar {
@@ -81,6 +80,7 @@ header div p {
   width: 100%;
   padding: 1rem;
   margin: 0.1rem 0;
+  cursor: pointer;
 }
 .sidebar-item i {
   color: #2d2d2d;
@@ -120,6 +120,13 @@ button {
   background-color: #d496a6;
   border: 1px solid #77001e;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
 }
 
 .card {
@@ -140,9 +147,6 @@ button {
 .right {
   flex-grow: 1;
   align-items: stretch;
-}
-.right .card {
-  height: 100%;
 }
 .right .top-card {
   flex-grow: 2;
