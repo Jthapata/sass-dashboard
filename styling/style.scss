@@ -18,6 +18,7 @@
 }
 body {
     height: 100vh;
+    background-color: base.$off-white;
 }
 .row {
     @include row;
@@ -50,9 +51,10 @@ header {
 }
 .maincontent {
     @include row(stretch);
-    height: 100%;
+    background-color: base.$off-white;
 }
 .sidebar {
+    height: 89vh;
     @include column(flex-start);
     flex-grow: 1;
     background-color: base.$off-white;
@@ -64,7 +66,7 @@ header {
 .sidebar-item {
     @include row;
     background-color: base.$off-white;
-    width: 100%;
+    width: 85%;
     padding: 1rem;
     margin: .1rem 0;
     cursor: pointer;
@@ -80,6 +82,7 @@ header {
     @extend %shadow;
     background-color: base.$off-white;
     flex-grow: 5;
+    border-right: none;
 }
 .top {
     @include row;

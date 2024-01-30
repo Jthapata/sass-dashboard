@@ -7,6 +7,6 @@ $off-white: #f6f6f6;
     background-color: $light-red;
 }
 %shadow {
-    box-shadow: 0 0 3px black;
-    border-radius: 3px;
+    border-top: 1px solid $charcoal;
+    border-right: 1px solid $charcoal;
 }
