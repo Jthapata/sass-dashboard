@@ -1,5 +1,6 @@
 .sidebar :hover {
   background-color: #d496a6;
+  border-right: 5px solid #77001e;
 }
 
 .sidebar, .dashboard {
@@ -79,7 +80,7 @@ header div p {
   flex-direction: row;
   align-items: center;
   background-color: #f6f6f6;
-  width: 85%;
+  width: 80%;
   padding: 1rem;
   margin: 0.1rem 0;
   cursor: pointer;
@@ -90,6 +91,9 @@ header div p {
 .sidebar-item h3 {
   margin-left: 1rem;
   color: #2d2d2d;
+}
+.sidebar-item :hover {
+  border-right: none;
 }
 
 .dashboard {
